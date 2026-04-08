@@ -1,0 +1,14 @@
+{
+  "port": 5000,
+  "mongodb": {
+    "uri": "mongodb://localhost:27017/todoapp",
+    "options": {
+      "useNewUrlParser": true,
+      "useUnifiedTopology": true
+    }
+  },
+  "cors": {
+    "origin": "*",
+    "credentials": true
+  }
+}

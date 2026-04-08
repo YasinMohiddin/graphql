@@ -1,0 +1,14 @@
+{
+  "port": 5000,
+  "mongodb": {
+    "uri": "mongodb+srv://Firoz_Shaik_:bj7B8w4g8bmXOgCo@mydb-f.xxjy1.mongodb.net/todoapp",
+    "options": {
+      "useNewUrlParser": true,
+      "useUnifiedTopology": true
+    }
+  },
+  "cors": {
+    "origin": "*",
+    "credentials": true
+  }
+}
