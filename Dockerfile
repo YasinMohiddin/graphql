@@ -9,14 +9,14 @@ WORKDIR /app
 COPY package*.json ./
 
 # Use 'npm ci' instead of 'npm install' for deterministic builds in CI
-RUN npm i
+RUN npm install
 RUN npm run prod
 
 # Copy the rest of the application source code
 COPY . .
 
 # If you have a build step (e.g., TypeScript or React), uncomment below:
-# RUN npm run build
+ RUN npm run build
 
 # --- Stage 2: Production Runtime ---
 FROM node:20-alpine AS runner
